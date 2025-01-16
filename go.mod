@@ -1,6 +1,8 @@
 module gobyexample
 
-go 1.18
+go 1.21
+
+toolchain go1.23.4
 
 require (
 	github.com/alecthomas/chroma/v2 v2.12.0
@@ -8,9 +10,10 @@ require (
 	github.com/aws/aws-sdk-go-v2 v1.9.0
 	github.com/aws/aws-sdk-go-v2/config v1.7.0
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.14.0
+	github.com/prometheus/common v0.61.0
 	github.com/prometheus/procfs v0.15.1
 	github.com/russross/blackfriday/v2 v2.1.0
-	golang.org/x/sys v0.20.0
+	golang.org/x/sys v0.28.0
 )
 
 require (
@@ -26,5 +29,4 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sts v1.7.0 // indirect
 	github.com/aws/smithy-go v1.8.0 // indirect
 	github.com/dlclark/regexp2 v1.10.0 // indirect
-	github.com/stretchr/testify v1.10.0 // indirect
 )
