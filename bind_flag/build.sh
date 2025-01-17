@@ -1,0 +1,1 @@
+go build -o glag bind_flag.go
