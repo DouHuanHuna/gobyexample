@@ -26,7 +26,6 @@ func main() {
 	podName := "example-pod"
 	namespace := "default"
 	pod, err := clientset.CoreV1().Pods(namespace).Get(context.TODO(), podName, metav1.GetOptions{})
-
 	if err != nil {
 		if errors.IsNotFound(err) {
 			fmt.Printf("Pod %s 不存在\n", podName)
