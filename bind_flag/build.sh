@@ -1,1 +1,1 @@
-go build -o glag bind_flag.go
+go build -o flag bind_flag.go

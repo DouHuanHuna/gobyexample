@@ -6,6 +6,10 @@ import (
 )
 
 func main() {
+	var isEnabled bool
+
+	flag.BoolVar(&isEnabled, "enable", false, "enable flag")
+
 	opts := zap.Options{
 		Development: false,
 	}
